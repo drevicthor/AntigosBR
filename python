@@ -1,0 +1,18 @@
+from http.server import SimpleHTTPRequestHandler
+import socketserver
+
+# Define o diretório raiz do servidor
+web_dir = "."
+port = 8000
+
+# Configura o manipulador de requisições HTTP
+handler = SimpleHTTPRequestHandler
+
+# Inicia o servidor na porta especificada
+with socketserver.TCPServer(("", port), handler) as httpd:
+    print(f"Serving on port {port}")
+    try:
+        # Mantém o servidor em execução até que seja interrompido manualmente
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\nServer stopped.")

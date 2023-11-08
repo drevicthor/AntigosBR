@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10;
+    padding: 20;
+}
+
+header {
+    background-color: #2555c6;
+    color: #61dafb;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #542174;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 30;
+    margin: 40;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #323e3f;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: rgb(239, 41, 41);
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #6779a2;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #61dafb;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 10;
+    width: 100%;
+}
+
+/* Adicione estilos específicos para a seção About */
+#about {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicione estilos específicos para a seção Projects */
+#projects {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicione estilos específicos para a seção Contact */
+#contact {
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicione uma animação de fade-in para as seções */
+section {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
