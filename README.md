@@ -6,7 +6,7 @@ Tema:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Seu Nome - Portfólio</title>
+    <title>Seu Nome aqui - Portfólio</title>
 </head>
 <body>
     <header>
