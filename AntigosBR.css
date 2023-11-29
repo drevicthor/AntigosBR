@@ -1,5 +1,5 @@
 body{
-    color:yellow;
+    color:red;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,7 +11,7 @@ ul{
     padding: 16px;
 }
 a{
-    color:rgb(93, 93, 255)
+    color:rgb(193, 190, 190)
 }
 img{
     width: 300px;
